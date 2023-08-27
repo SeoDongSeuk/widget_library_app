@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_library_app/widget_library_app.dart';
+import 'package:widget_library_app/s_widget_library_app.dart';
 
 void main() {
   runApp(const MyApp());
