@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_library_app/pages/list_view/s_list_view_builder.dart';
 
 class WidgetList extends StatelessWidget {
   const WidgetList({
@@ -10,7 +11,14 @@ class WidgetList extends StatelessWidget {
     return Column(
       children: [
         ElevatedButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const ListViewBuilderApp(),
+              ),
+            );
+          },
           child: const Center(
             child: Text(
               'ListView.builder 화면',
