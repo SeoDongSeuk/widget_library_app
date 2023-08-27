@@ -13,7 +13,7 @@ class WidgetList extends StatelessWidget {
           onPressed: () {},
           child: const Center(
             child: Text(
-              '테스트',
+              'ListView.builder 화면',
               style: TextStyle(
                 fontSize: 20,
                 color: Colors.amber,
